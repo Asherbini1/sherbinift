@@ -112,12 +112,10 @@ export default function Home() {
                 desc: "Specialized implementation services as a certified Cloud Partner for Onfinity."
               }
             ].map((service, i) => (
-              <div key={i} className="group p-8 bg-background border border-border hover:border-black transition-colors duration-300">
-                <div className="w-12 h-12 bg-black text-white flex items-center justify-center mb-6 text-xl font-heading font-bold">
-                  {i + 1}
-                </div>
-                <h3 className="text-xl font-bold font-heading mb-3">{service.title}</h3>
-                <p className="text-muted-foreground leading-relaxed">{service.desc}</p>
+              <div key={i} className="group p-10 bg-background border border-border hover:border-black transition-all duration-500 executive-shadow">
+                <div className="w-10 h-px bg-black/20 mb-8 group-hover:w-full transition-all duration-700" />
+                <h3 className="text-xl font-bold font-heading mb-4 tracking-tighter">{service.title}</h3>
+                <p className="text-muted-foreground leading-relaxed text-sm">{service.desc}</p>
               </div>
             ))}
           </div>
