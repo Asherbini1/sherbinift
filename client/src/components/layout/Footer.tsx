@@ -1,4 +1,5 @@
 import { Link } from "wouter";
+import logo from "@/assets/logo.png";
 
 export function Footer() {
   return (
@@ -6,7 +7,13 @@ export function Footer() {
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
           <div className="col-span-1 md:col-span-1">
-            <h3 className="text-2xl font-bold font-heading mb-6 tracking-tight">STC.</h3>
+            <div className="mb-8">
+              <img 
+                src={logo} 
+                alt="STC Logo" 
+                className="h-16 w-auto object-contain invert" 
+              />
+            </div>
             <p className="text-primary-foreground/60 text-sm leading-relaxed">
               Sherbini Tech Consultancy.
               <br />

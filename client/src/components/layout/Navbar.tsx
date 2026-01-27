@@ -20,23 +20,19 @@ export function Navbar() {
 
   return (
     <nav className="fixed top-0 w-full z-50 bg-black text-white border-b border-white/10">
-      <div className="container mx-auto px-6 h-32 flex flex-col items-center justify-center relative">
-        <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity shrink-0 mb-6 mt-2">
-          <img 
-            src={logo} 
-            alt="STC Logo" 
-            className="h-12 w-auto object-contain invert" 
-          />
+      <div className="container mx-auto px-6 h-20 flex items-center justify-between relative">
+        <Link href="/" className="text-xl font-bold font-heading tracking-tighter hover:opacity-80 transition-opacity">
+          STC<span className="text-white/40">.</span>
         </Link>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex items-center gap-12">
+        <div className="hidden md:flex items-center gap-10">
           {links.map((link) => (
             <Link 
               key={link.href} 
               href={link.href}
               className={cn(
-                "text-[10px] uppercase tracking-[0.25em] font-bold transition-colors hover:text-white/70 cursor-pointer",
+                "text-[10px] uppercase tracking-[0.2em] font-bold transition-colors hover:text-white/70 cursor-pointer",
                 location === link.href
                   ? "text-white"
                   : "text-white/40"
@@ -48,15 +44,15 @@ export function Navbar() {
         </div>
 
         {/* Desktop Contact Button */}
-        <Link href="/contact" className="hidden md:block absolute right-6 top-1/2 -translate-y-1/2">
-          <button className="text-[10px] uppercase tracking-[0.2em] font-bold border border-white/20 px-6 py-2.5 hover:bg-white hover:text-black transition-all cursor-pointer">
+        <Link href="/contact" className="hidden md:block">
+          <button className="text-[10px] uppercase tracking-[0.2em] font-bold border border-white/20 px-6 py-2 hover:bg-white hover:text-black transition-all cursor-pointer">
             Contact
           </button>
         </Link>
 
         {/* Mobile Toggle */}
         <button
-          className="md:hidden absolute right-6 top-1/2 -translate-y-1/2 text-white"
+          className="md:hidden text-white"
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? <X /> : <Menu />}
