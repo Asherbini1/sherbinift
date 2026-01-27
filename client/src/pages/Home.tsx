@@ -48,36 +48,25 @@ export default function Home() {
 
       {/* Intro Section */}
       <section className="py-24 bg-background">
-        <div className="container mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-16 items-center">
-            <div>
-              <h2 className="text-3xl md:text-4xl font-bold font-heading mb-6">
-                Modernizing Enterprise Finance
-              </h2>
-              <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                We act as the strategic bridge between financial policy and technological implementation. Our expertise lies in translating complex financial requirements into robust, automated ERP workflows.
-              </p>
-              <ul className="space-y-4 mt-8">
-                {[
-                  "Financial Policy Design",
-                  "Cloud ERP Implementation",
-                  "Process Automation",
-                  "Digital Transformation"
-                ].map(item => (
-                  <li key={item} className="flex items-center gap-3 font-medium">
-                    <CheckCircle2 className="w-5 h-5 text-black" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className="relative aspect-square md:aspect-[4/3] bg-muted overflow-hidden">
-               <img 
-                src="/assets/office-bg.png" 
-                alt="Modern Office" 
-                className="w-full h-full object-cover filter grayscale hover:scale-105 transition-transform duration-700"
-              />
-            </div>
+        <div className="container mx-auto px-6 max-w-4xl text-center">
+          <h2 className="text-3xl md:text-4xl font-bold font-heading mb-6">
+            Modernizing Enterprise Finance
+          </h2>
+          <p className="text-muted-foreground text-lg leading-relaxed mb-10 max-w-2xl mx-auto">
+            We act as the strategic bridge between financial policy and technological implementation. Our expertise lies in translating complex financial requirements into robust, automated ERP workflows.
+          </p>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 text-left">
+            {[
+              "Financial Policy Design",
+              "Cloud ERP Implementation",
+              "Process Automation",
+              "Digital Transformation"
+            ].map(item => (
+              <div key={item} className="flex items-center gap-3 p-4 border border-border bg-muted/30">
+                <CheckCircle2 className="w-5 h-5 text-black shrink-0" />
+                <span className="font-medium text-sm">{item}</span>
+              </div>
+            ))}
           </div>
         </div>
       </section>
