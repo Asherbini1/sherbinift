@@ -1,5 +1,6 @@
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
+import leaderPhoto from "@/assets/leader.jpg";
 
 export default function Leadership() {
   return (
@@ -13,9 +14,11 @@ export default function Leadership() {
           <div className="flex flex-col md:flex-row gap-12 items-start">
             <div className="w-full md:w-1/3 shrink-0">
               <div className="aspect-[3/4] bg-muted relative overflow-hidden border border-border">
-                <div className="absolute inset-0 flex items-center justify-center bg-black/5">
-                   <span className="text-9xl font-heading text-black/10 font-bold">AS</span>
-                </div>
+                <img 
+                  src={leaderPhoto} 
+                  alt="Ahmed El-Sherbini" 
+                  className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
+                />
               </div>
             </div>
             
