@@ -3,7 +3,7 @@ import { Footer } from "@/components/layout/Footer";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, Phone, Linkedin } from "lucide-react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -74,12 +74,17 @@ export default function Contact() {
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <MapPin className="w-6 h-6 mt-1" />
+                  <Linkedin className="w-6 h-6 mt-1" />
                   <div>
-                    <h3 className="font-bold mb-1">Office</h3>
-                    <p className="text-muted-foreground">
-                      Available for global consultations.
-                    </p>
+                    <h3 className="font-bold mb-1">LinkedIn</h3>
+                    <a 
+                      href="https://www.linkedin.com/company/sherbini-tech-consultancy" 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="text-muted-foreground hover:text-black transition-colors"
+                    >
+                      Sherbini Tech Consultancy
+                    </a>
                   </div>
                 </div>
               </div>
@@ -89,7 +94,14 @@ export default function Contact() {
                 <p className="text-muted-foreground text-sm mb-4">
                   Follow us on LinkedIn for the latest insights in Financial Tech.
                 </p>
-                <a href="#" className="font-bold underline">LinkedIn Profile</a>
+                <a 
+                  href="https://www.linkedin.com/company/sherbini-tech-consultancy" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="font-bold underline"
+                >
+                  LinkedIn Company Profile
+                </a>
               </div>
             </div>
 

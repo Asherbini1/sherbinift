@@ -1,6 +1,5 @@
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 export default function Leadership() {
   return (
@@ -14,7 +13,6 @@ export default function Leadership() {
           <div className="flex flex-col md:flex-row gap-12 items-start">
             <div className="w-full md:w-1/3 shrink-0">
               <div className="aspect-[3/4] bg-muted relative overflow-hidden border border-border">
-                {/* Placeholder for Ahmed El-Sherbini - using a generic professional silhouette or initials if no image */}
                 <div className="absolute inset-0 flex items-center justify-center bg-black/5">
                    <span className="text-9xl font-heading text-black/10 font-bold">AS</span>
                 </div>
@@ -36,7 +34,7 @@ export default function Leadership() {
               
               <div className="mt-8 pt-8 border-t border-border">
                 <a 
-                  href="https://linkedin.com" 
+                  href="http://linkedin.com/in/ahmed-el-sherbini-4a641a68" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="inline-flex items-center text-black font-bold hover:underline"

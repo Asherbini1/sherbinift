@@ -46,8 +46,14 @@ export function Footer() {
             © {new Date().getFullYear()} Sherbini Tech Consultancy. All rights reserved.
           </p>
           <div className="flex gap-4">
-            {/* Social icons placeholder */}
-            <a href="#" className="text-primary-foreground/60 hover:text-white transition-colors">LinkedIn</a>
+            <a 
+              href="https://www.linkedin.com/company/sherbini-tech-consultancy" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-primary-foreground/60 hover:text-white transition-colors"
+            >
+              LinkedIn
+            </a>
           </div>
         </div>
       </div>
