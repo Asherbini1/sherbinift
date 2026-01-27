@@ -42,9 +42,14 @@ export function Footer() {
         </div>
 
         <div className="border-t border-primary-foreground/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-xs text-primary-foreground/40">
-            © {new Date().getFullYear()} Sherbini Tech Consultancy. All rights reserved.
-          </p>
+          <div className="flex flex-col gap-1">
+            <p className="text-xs text-primary-foreground/40">
+              © {new Date().getFullYear()} Sherbini Tech Consultancy. All rights reserved.
+            </p>
+            <a href="https://sherbinift.com" className="text-xs text-primary-foreground/40 hover:text-white transition-colors">
+              sherbinift.com
+            </a>
+          </div>
           <div className="flex gap-4">
             <a 
               href="https://www.linkedin.com/company/sherbini-tech-consultancy" 
