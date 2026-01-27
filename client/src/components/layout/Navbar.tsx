@@ -22,11 +22,11 @@ export function Navbar() {
   return (
     <nav className="fixed top-0 w-full z-50 bg-black text-white border-b border-white/10">
       <div className="container mx-auto px-6 h-20 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+        <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity shrink-0">
           <img 
             src={logo} 
             alt="STC Logo" 
-            className="h-12 w-auto" 
+            className="h-16 w-auto object-contain" 
           />
         </Link>
 
