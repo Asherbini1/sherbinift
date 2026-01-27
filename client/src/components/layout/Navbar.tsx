@@ -26,7 +26,7 @@ export function Navbar() {
           <img 
             src={logo} 
             alt="STC Logo" 
-            className="h-12 w-auto brightness-200 contrast-150" 
+            className="h-12 w-auto" 
           />
         </Link>
 
