@@ -4,6 +4,8 @@ import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 
+import logo from "@/assets/logo.png";
+
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [location] = useLocation();
@@ -22,7 +24,7 @@ export function Navbar() {
       <div className="container mx-auto px-6 h-20 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
           <img 
-            src="/attached_assets/STC_White_(Desktop_Wallpaper)_1769516445259.png" 
+            src={logo} 
             alt="STC Logo" 
             className="h-12 w-auto invert dark:invert-0" 
           />
