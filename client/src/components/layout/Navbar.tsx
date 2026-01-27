@@ -26,7 +26,7 @@ export function Navbar() {
           <img 
             src={logo} 
             alt="STC Logo" 
-            className="h-16 w-auto object-contain" 
+            className="h-16 w-auto object-contain invert" 
           />
         </Link>
 
