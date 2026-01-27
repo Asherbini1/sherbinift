@@ -1,0 +1,124 @@
+Create a modern, professional corporate website for Sherbini Tech Consultancy (STC), a financial technology and ERP advisory firm.
+
+Design & UI Requirements:
+
+Color scheme: Black, White, and Grey only
+
+Clean, executive, enterprise-grade look
+
+Minimalistic layout with strong typography
+
+Responsive design (desktop, tablet, mobile)
+
+Suitable for a finance, ERP, and digital transformation consultancy
+
+Technology Stack:
+
+Use standard web technologies (HTML, CSS, JavaScript) or a modern framework if appropriate
+
+Ensure clean, well-commented, production-ready code
+
+Website Structure & Pages:
+
+Home Page
+
+Hero section with a concise value proposition:
+“Bridging Financial Governance with Cloud ERP Execution”
+
+Brief introduction to Sherbini Tech Consultancy
+
+Key services highlights
+
+Call-to-action buttons (Contact Us, Our Services)
+
+About Us
+
+Company overview based on the provided document
+
+Mission statement emphasizing financial governance, automation, and ERP-driven execution
+
+Position STC as a bridge between traditional finance and modern enterprise technology
+
+Services
+Include clearly structured sections for:
+
+Financial Policies & Governance Design
+
+Cloud ERP Advisory & Implementation
+
+Onfinity (VIENNA Advantage) ERP Implementation
+
+Process Automation & System Integration
+
+Training, Change Management & Post-Go-Live Support
+
+Onfinity ERP Expertise
+
+Highlight STC as a Cloud Partner for Onfinity (VIENNA Advantage ERP)
+
+Summarize key module benefits delivered by STC:
+
+Financial Management
+
+Budgeting & Controlling
+
+Procurement
+
+Project Management
+
+Asset Management
+
+Business Intelligence & Reporting
+
+Workflow & Automation
+
+Leadership
+
+Founder & CEO: Ahmed El-Sherbini
+
+Short professional bio highlighting ERP, financial transformation, and automation expertise
+
+Contact Us
+
+Email: ahmed@sherbinift.com
+
+Phone number
+
+LinkedIn links (CEO and Company)
+
+Simple contact form (name, email, message)
+
+Privacy Policy
+Create a professional Privacy Policy section/page suitable for a consulting and ERP advisory firm, covering:
+
+Information collected (contact forms, emails, website usage data)
+
+How information is used (responding to inquiries, business communication, service improvement)
+
+Data protection and confidentiality commitment
+
+No sharing of personal data with third parties except when legally required
+
+Cookies and website analytics (if applicable)
+
+User rights regarding their personal data
+
+Contact information for privacy-related inquiries
+
+Tone & Branding:
+
+Professional, authoritative, and trustworthy
+
+Enterprise-focused (targeting CFOs, finance leaders, and executives)
+
+Avoid marketing fluff; focus on clarity, governance, and expertise
+
+Output Expectations:
+
+Fully working website code
+
+Clear file structure
+
+Clean styling consistent with black, white, and grey branding
+
+Content aligned with the Sherbini Tech Consultancy reference document
