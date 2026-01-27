@@ -20,8 +20,12 @@ export function Navbar() {
   return (
     <nav className="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-6 h-20 flex items-center justify-between">
-        <Link href="/" className="text-2xl font-bold tracking-tighter font-heading hover:opacity-80 transition-opacity">
-          STC<span className="text-primary/40">.</span>
+        <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+          <img 
+            src="/attached_assets/STC_White_(Desktop_Wallpaper)_1769516445259.png" 
+            alt="STC Logo" 
+            className="h-12 w-auto invert dark:invert-0" 
+          />
         </Link>
 
         {/* Desktop Menu */}

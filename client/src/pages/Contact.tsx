@@ -68,7 +68,9 @@ export default function Contact() {
                   <Phone className="w-6 h-6 mt-1" />
                   <div>
                     <h3 className="font-bold mb-1">Phone</h3>
-                    <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                    <a href="tel:+201220513777" className="text-muted-foreground hover:text-black transition-colors">
+                      +201220513777
+                    </a>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
