@@ -1,4 +1,4 @@
-import { contactInquiries, type ContactInquiry, type InsertContactInquiry, type User, type InsertUser } from "@shared/schema";
+import { contactInquiries, type ContactInquiry, type InsertContactInquiry, type User, type InsertUser, users } from "@shared/schema";
 import { db } from "./db";
 import { eq } from "drizzle-orm";
 
@@ -33,8 +33,5 @@ export class DatabaseStorage implements IStorage {
     return newInquiry;
   }
 }
-
-// Re-importing users from schema for DatabaseStorage
-import { users } from "@shared/schema";
 
 export const storage = new DatabaseStorage();
